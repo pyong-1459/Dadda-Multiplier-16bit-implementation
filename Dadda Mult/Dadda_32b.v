@@ -1,8 +1,3 @@
-`include "./Dadda_Mult/Dadda_16b.v"
-`include "./Dadda_Mult/CSA_1b.v"
-`include "./Dadda_Mult/HA.v"
-`include "./Dadda_Mult/CLA_16b/ADD_32b_wCLA.v"
-
 module Dadda_32b(
     output [63:0] Y,
     input [31:0] A, B
